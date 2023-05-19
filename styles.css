@@ -65,11 +65,24 @@ body {
 .hero button {
     background-color: #3882F6;
     padding: 15px 30px;
+    border: none;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 20px;
+    width: 150px;
+    justify-content: center;
+    color: #E5E7EB;
+    font-weight: bold;
 }
 
 .hero {
     height: 400px;
     display: flex;
+    justify-content: start;
 }
 
 .left-2,
@@ -86,6 +99,7 @@ body {
 .left-2 p {
     font-family: Arial, Helvetica, sans-serif;
     padding: 0;
+    width: 500px;
 }
 
 .rand-info {
@@ -99,6 +113,11 @@ body {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.empty-but {
+    width: 200px;
 }
 
 /* .quote {
@@ -111,6 +130,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
+    height: 500px;
     /* justify-content: center;
     align-items: center; */
 }
@@ -119,20 +139,28 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-     flex: auto; 
-     font-size: 36px;
+    flex: auto; 
+    font-size: 36px;
     font-weight:lighter;
     font-style: italic;
     color: #1F2937;
-    /* width: 600px;  */
+    width: 700px; 
+    margin:0 auto;
+    padding: 75px 75px 0px 75px;
  }
 
 
 .quote .person {
     display: flex;
-    justify-content: flex-end;
+    justify-content:flex-end;
     align-items: flex-start;
     margin-top: 0px;
+    font-weight: bold;
+    font-size: 32px;
+    width: 700px;
+    margin: 0 auto;
+
+
 
 }
 
@@ -154,21 +182,45 @@ body {
 .rand-info {
     display: flex;
     flex-direction: column;
+    height: 500px;
 }
 
 .items {
     display: flex;
     gap: 20px;
-    justify-content: center;
-    gap: 30px;
+    justify-content:center;
+    align-items: center;
 }
 
 .item {
-    width: 100px;
+    width: 105px;
+    margin-left: 75px;
+    margin-right: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* height: 250px; */
 }
 
-.box {
-    border: 1px #3882F6;
+.item p {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 18px;
+    color: #1F2937;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.empty-but {
+    display: flex;
+    border: 5px solid #3882F6;
+    height: 200px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin-bottom: 5px;
 }
 
 
